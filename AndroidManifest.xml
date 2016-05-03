@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="edu.gatech.seclass.prj2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19"
+        tools:ignore="OldTargetApi" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/title_activity_about"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".CustomerListActivity"
+            android:launchMode="singleTop"
+            android:label="@string/title_customer_list"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".CustomerDetailActivity"
+            android:launchMode="singleTop"
+            android:label="@string/title_customer_detail"
+            android:parentActivityName=".CustomerListActivity" >
+        </activity>
+        <activity
+            android:name=".CustomerAddActivity"
+            android:label="@string/title_activity_customer_add"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".TransactionActivity"
+            android:label="@string/title_transaction"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".SearchActivity"
+            android:label="@string/title_activity_search"
+            android:parentActivityName=".TransactionActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable"
+                android:value=".SearchActivity" />
+        </activity>
+        <activity
+            android:name=".HistoryActivity"
+            android:label="@string/title_activity_history"
+            android:parentActivityName=".CustomerDetailActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.gatech.seclass.prj2.CustomerDetailActivity" />
+        </activity>
+    </application>
+
+</manifest>

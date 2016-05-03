@@ -1,0 +1,14 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="7dp"
+    android:paddingRight="7dp" >
+
+    <ListView
+        android:id="@+id/customer_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    </ListView>
+    
+</FrameLayout>

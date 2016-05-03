@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StallManager</string>
+    <string name="search_hint">Search Customers</string>
+    <string name="title_activity_main">StallManager</string>
+    <string name="about_app_name">PReMS StallManager</string>
+    <string name="about_team_name">Team26</string>
+    <string name="about_team_members">Yuchun Qin, Cedric Meury, Yue Li, Ganesh Shivashankaraiah</string>
+    <string name="about_class_name">Software Development Processes</string>
+    <string name="about_class_semester">Spring 2015</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_transaction">Transaction</string>
+    <string name="btn_add_customer">Add Customer</string>
+    <string name="btn_manage_customers">Manage Customers</string>
+    <string name="txt_welcome">Welcome to the PReMS Stallmanager. What action would you like to perform?</string>
+    <string name="title_customer_list">Customers</string>
+    <string name="title_customer_detail">Customer Detail</string>
+    <string name="title_activity_customer_add">Add Customer</string>
+    <string name="lbl_firstname">First Name</string>
+    <string name="lbl_lastname">Last Name</string>
+    <string name="lbl_zipcode">Zip Code</string>
+    <string name="lbl_email">E-Mail Address</string>
+    <string name="btn_save_customer">Save</string>
+    <string name="btn_transaction">New Transaction</string>
+    <string name="title_activity_debug">DebugActivity</string>
+    <string name="action_debug">Debug</string>
+    <string name="lbl_created_on">Created On:</string>
+    <string name="lbl_discount">Current Absolute Discount</string>
+    <string name="lbl_gold_customer">Gold Customer</string>
+    <string name="btn_edit_customer">Edit</string>
+    <string name="about_cat_desc">An attentive cat.</string>
+    <string name="transaction_read_cc">Read Credit Card</string>
+    <string name="lbl_amount">Amount</string>
+    <string name="lbl_customer">Customer</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="transaction_payment">Pay!</string>
+    <string name="btn_history">Payment History</string>
+    <string name="title_activity_history">Transaction History</string>
+    <string name="lbl_debug_customers">Customers</string>
+    <string name="lbl_debug_transactions">Transactions</string>
+
+</resources>

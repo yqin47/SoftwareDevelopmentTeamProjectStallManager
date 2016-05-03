@@ -1,0 +1,134 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/customer_detail_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="7dp"
+    android:paddingTop="7dp"
+    android:paddingRight="7dp"
+    tools:context="edu.gatech.seclass.prj2.CustomerDetailActivity" >
+
+    <TextView
+        android:id="@+id/customer_detail_lbl_firstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_firstname" />
+        
+    <EditText
+        android:id="@+id/customer_detail_txt_firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/customer_detail_lbl_lastname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_lastname" />
+
+    <EditText
+        android:id="@+id/customer_detail_txt_lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/customer_detail_lbl_zipcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_zipcode" />
+
+    <EditText
+        android:id="@+id/customer_detail_txt_zipcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="false"        
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/customer_detail_lbl_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_email" />
+
+    <EditText
+        android:id="@+id/customer_detail_txt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="false"        
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/customer_detail_lbl_discount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_discount" />
+
+    <EditText
+        android:id="@+id/customer_detail_txt_discount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="false"        
+        android:inputType="numberDecimal" />
+
+    <CheckBox
+        android:id="@+id/customer_detail_gold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"        
+        android:text="@string/lbl_gold_customer" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/customer_detail_lbl_created"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_created_on" />
+
+        <TextView
+            android:id="@+id/customer_detail_lbl_created_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/customer_detail_btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="@string/btn_save_customer" />
+
+        <Button
+            android:id="@+id/customer_detail_btn_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_edit_customer" />
+        
+        <Button
+            android:id="@+id/customer_detail_btn_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:text="@string/btn_history" />
+
+    </LinearLayout>
+
+</LinearLayout>

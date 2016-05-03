@@ -1,0 +1,63 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	  xmlns:tools="http://schemas.android.com/tools"        
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="22dp"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="edu.gatech.seclass.prj2.AboutActivity" >
+
+    <TextView
+        android:id="@+id/lbl_about_app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:text="@string/about_app_name"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lbl_about_build"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/lbl_about_team_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_team_name"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/lbl_about_team"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:text="@string/about_team_members"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/lbl_about_class_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_class_name"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/lbl_about_class_semester"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:text="@string/about_class_semester"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:id="@+id/catView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cat"
+        android:contentDescription="@string/about_cat_desc"/>
+    
+</LinearLayout>
